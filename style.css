@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Rock+3D&display=swap");
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.background {
+}
+
+body {
+  background-image: url("bilder/alps.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  height: 1300px;
+  width: 800px;
+  background-color: white;
+}
+
+.bokaknapp {
+  border: 1px solid #000;
+  color: #000;
+  padding: 5px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  background-color: rgb(0, 99, 86);
+  margin-left: 20px;
+}
+
+.skiduthyrning {
+  width: 796px;
+  flex: 100%;
+  display: flex;
+}
+
+.skidskola {
+  width: 796px;
+  flex: 100%;
+  display: flex;
+}
+
+.uthyrningtext {
+  height: 400px;
+  width: 400px;
+  margin: 0 40px;
+  text-align: justify;
+}
+
+.skidskolatext {
+  height: 400px;
+  width: 400px;
+  margin: 0 40px;
+  text-align: justify;
+}
+
+#skidorimg {
+  width: 400px;
+  object-fit: cover;
+  margin-right: -4px;
+  padding: 10px;
+}
+
+header {
+  list-style: none;
+  font-size: 16px;
+  box-shadow: 0px 2px 2px rgb(73, 73, 73);
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  padding: 25px;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(252, 252, 252);
+}
+
+nav {
+  display: flex;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.icon{
+  font-size: 1.5em;
+}
