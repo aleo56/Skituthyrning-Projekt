@@ -1,17 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Rock+3D&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Raleway:wght@100;400&family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Raleway:wght@100;400&family=Rock+3D&display=swap');
+
 * {
   text-decoration: none;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.index {
   font-family: "Raleway", sans-serif;
 }
 
-.background {
-}
-
 body {
-  background-image: url("bilder/alps.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-size: cover;
@@ -23,6 +25,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+}
+
+body.index {
+  background-image: url("bilder/alps.jpg");
+
+
+}
+
+body.pistkartor {
+  background-image: url("bilder/vemdalen_lift.jpg");
 }
 
 body::-webkit-scrollbar {
@@ -33,6 +46,7 @@ main {
   height: 1300px;
   width: 800px;
   background-color: white;
+
 }
 
 .bokaknapp {
@@ -85,10 +99,18 @@ header {
   background-color: rgb(255, 255, 255);
   width: 100vw;
   padding: 25px;
-  margin-bottom: 20px;
   position: sticky;
   top: 0;
   background-color: rgb(252, 252, 252);
+
+}
+
+header.index { 
+  margin-bottom: 20px;
+}
+
+header.pistkartor { 
+  margin-bottom: 300px;
 }
 
 nav {
@@ -103,6 +125,7 @@ nav {
 
 .icon{
   font-size: 1.5em;
+  color: darkslategray;
 }
 
 #vemdalenutsikt {
@@ -110,9 +133,39 @@ nav {
   padding: 20px;
 }
 
-.pistkartor {
+.pistkartor-link {
   height: 20px;
   width: 800px;
   text-align: center;
   margin-top: 20px;
+}
+
+.pistkartor-main {
+  width: 100vw;
+  height: 2000px;
+  background-color: white;
+ 
+
+}
+
+.title-vemdalen {
+  text-align: center;
+  padding: 25px;
+  font-family: 'Orelega One', cursive;
+  font-size: 1.8em;
+  color: rgb(54, 54, 54);
+  text-shadow: 2px 2px 2px; 
+  border-bottom: solid rgb(72, 71, 71);
+}
+
+.berg-titlar {
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: rgb(72, 72, 72);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.kartor {
+  width: 100vw;
 }
