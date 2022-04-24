@@ -110,7 +110,7 @@ header.index {
 }
 
 header.pistkartor { 
-  margin-bottom: 300px;
+  margin-bottom: 300px ;
 }
 
 nav {
@@ -142,10 +142,9 @@ nav {
 
 .pistkartor-main {
   width: 100vw;
-  height: 2000px;
+  height: 350vh;
   background-color: white;
- 
-
+  align-items: center;
 }
 
 .title-vemdalen {
@@ -167,5 +166,6 @@ nav {
 }
 
 .kartor {
-  width: 100vw;
+  width: 80vw;
+  margin-left: 10vw;
 }
