@@ -14,7 +14,6 @@
 }
 
 body {
-  background-size: cover;
   background-attachment: fixed;
   background-size: cover;
   align-items: center;
@@ -38,25 +37,37 @@ body.pistkartor {
   background-image: url("bilder/vemdalen_lift.jpg");
 }
 
+#pistkartor-bild {
+  width: 57vw;
+  height: 66vh;
+}
+
+#pistkartor-bild:hover {
+  width: 58vw;
+  height: 67vh;
+  
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
 
 main {
-  height: 1300px;
-  width: 800px;
+  height: 220vh;
+  width: 64vw;
   background-color: white;
 
 }
 
-.bokaknapp {
+button {
   border: 1px solid #000;
   color: #000;
-  padding: 5px 15px;
+  padding: 8px 50px;
   border-radius: 50px;
   text-decoration: none;
   background-color: rgb(185, 255, 246);
   margin-left: 20px;
+  margin: 5vh 0 5vh 0;
 }
 
 .skiduthyrning {
@@ -76,6 +87,7 @@ main {
   width: 400px;
   margin: 0 40px;
   text-align: justify;
+  padding: 7px;
 }
 
 .skidskolatext {
@@ -83,6 +95,7 @@ main {
   width: 400px;
   margin: 0 40px;
   text-align: justify;
+  padding: 7px;
 }
 
 #skidorimg {
@@ -102,15 +115,18 @@ header {
   position: sticky;
   top: 0;
   background-color: rgb(252, 252, 252);
-
-}
-
-header.index { 
   margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
 }
+
+.menu-text {
+  margin-left: 6px;
+
+}
+
 
 header.pistkartor { 
-  margin-bottom: 300px ;
+  margin-bottom: 280px ;
 }
 
 nav {
@@ -122,10 +138,17 @@ nav {
   justify-content: center;
   width: 100vw;
 }
+.skiduthyrning-vemdalen {
+  justify-content: center;
+}
 
 .icon{
   font-size: 1.5em;
   color: darkslategray;
+}
+
+#profilbild {
+  padding-left: 49.27px;
 }
 
 #vemdalenutsikt {
@@ -142,7 +165,7 @@ nav {
 
 .pistkartor-main {
   width: 100vw;
-  height: 350vh;
+  height: 370vh;
   background-color: white;
   align-items: center;
 }
@@ -170,3 +193,25 @@ nav {
   margin-left: 10vw;
 
 }
+
+body ul {
+  display: flex;
+  list-style: none;
+}
+
+body li {
+  display: flex;
+  list-style: none;
+}
+
+.input {
+  width: 14vw;
+  height: 7vh;
+  font-size: 18px;
+}
+
+input[type=text] {
+  border: grey solid;
+  padding: 5px;
+}
+
