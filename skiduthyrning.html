@@ -22,19 +22,45 @@
         </a>
       </nav>
     </header>
+    <form action="">
     <ul>
-      <li>
+      <li class="skiduthyrning-form">
+        <label class="form-label" for="fname">Användarnamn</label>
+      </br>     
+        <input name="fname" type="text" id="fname" class="input" placeholder="Name..." />
+      </li>
+      <li class="skiduthyrning-form">        
+        <label class="form-label" for="fname">Ålder</label>
+      </br>     
         <input type="text" class="input" placeholder="Name..." />
       </li>
-      <li>
+      <li class="skiduthyrning-form">
+        <label class="form-label" for="fname">Längd (cm)</label>
+      </br>     
         <input type="text" class="input" placeholder="Name..." />
       </li>
-      <li>
+      <li class="skiduthyrning-form">
+        <label class="form-label" for="fname">First Name</label>
+      <br>     
         <input type="text" class="input" placeholder="Name..." />
       </li>
-      <li>
-        <input type="text" class="input" placeholder="Name..." />
+
+      <li class="kategori" for="fname">
+        <label for="kategori">Kategori</label>
+        <select name="kategori" id="kategori">
+          <option value="0">Välj kategori nedan</option>
+          <option value="1">VUXEN, Alpina paket</option>
+          <option value="2">VUXEN, Enstaka artiklar</option>
+          <option value="3">UNGDOM 8-15 år, Alpin paket</option>
+          <option value="4">UNGDOM 8-15 år, Enstaka artiklar</option>
+          <option value="5">BARN 0-7 år, Alpin paket</option>
+          <option value="6">BARN 0-7 år, Enstaka artiklar</option>
+          <option value="7">Övrigt</option>
+          <option value="8">Utkörning</option>
+          <option value="9">Skidskola</option>
+        </select>
       </li>
     </ul>
+  </form>
   </body>
 </html>
