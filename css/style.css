@@ -53,7 +53,7 @@ main {
   background-color: white;
 }
 
-button {
+.bokaknapp {
   border: 1px solid #000;
   color: #000;
   padding: 8px 50px;
