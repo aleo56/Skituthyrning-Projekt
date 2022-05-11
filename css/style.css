@@ -92,7 +92,14 @@ button {
   padding: 7px;
 }
 
-#skidorimg {
+#skidlärare-img {
+  width: 400px;
+  object-fit: cover;
+  margin-right: -4px;
+  padding: 10px;
+}
+
+#skidor-img {
   width: 400px;
   object-fit: cover;
   margin-right: -4px;
