@@ -25,15 +25,22 @@ body {
   align-items: center;
 }
 
-body.index {
+body.index-html {
   background-image: url("bilder/alps.jpg");
 }
 
-body.pistkartor {
+body.pistkartor-html {
   background-image: url("bilder/vemdalen_lift.jpg");
 }
 
-#vemdalenutsikt {
+
+#vemdalenutsikt {}
+
+body.skiduthyrning-html {
+  background-image: url("bilder/alps2.png");
+}
+
+#pistkartor-bild {
   width: 1024px;
   height: 681.5px;
 }
@@ -125,7 +132,7 @@ header {
   box-shadow: 0px 2px 2px rgb(73, 73, 73);
   background-color: rgb(255, 255, 255);
   width: 100vw;
-  padding: 25px;
+  padding: 15px;
   position: sticky;
   top: 0;
   background-color: rgb(252, 252, 252);
@@ -233,7 +240,7 @@ input[type="text"]:hover {
 
 .form-label {
   font-size: 1.5em;
-  color: rgb(78, 78, 78);
+  color: rgb(0, 0, 0);
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -256,8 +263,36 @@ input[type="text"]:hover {
   font-size: 1.5em;
   font-family: "Source Sans Pro", sans-serif;
   padding: 15px;
-} 
 
-@media screen {
-  
+}
+
+.footer {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(207, 206, 206);
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+.social_media {
+  margin-top: 7px;
+  margin-left: 5px;
+  padding: 4px;
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  font-size: 1.15em;
+}
+
+#instagram {
+  margin-left: 75px;
+}
+
+#youtube {
+  margin-left: 75px;
+}
+
+@media screen and (max-width: 600px) {
 }
