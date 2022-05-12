@@ -33,8 +33,9 @@ body.pistkartor-html {
   background-image: url("bilder/vemdalen_lift.jpg");
 }
 
-
-#vemdalenutsikt {}
+#vemdalenutsikt {
+  width: 720px;
+}
 
 body.skiduthyrning-html {
   background-image: url("bilder/alps2.png");
@@ -54,7 +55,7 @@ body::-webkit-scrollbar {
 }
 
 main {
-  height: 220vh;
+  height: 233vh;
   width: 64vw;
   background-color: white;
 }
@@ -263,7 +264,6 @@ input[type="text"]:hover {
   font-size: 1.5em;
   font-family: "Source Sans Pro", sans-serif;
   padding: 15px;
-
 }
 
 .footer {
