@@ -34,7 +34,6 @@ body.pistkartor-html {
 }
 
 
-#vemdalenutsikt {}
 
 body.skiduthyrning-html {
   background-image: url("bilder/alps2.png");
@@ -43,6 +42,10 @@ body.skiduthyrning-html {
 #pistkartor-bild {
   width: 1024px;
   height: 681.5px;
+}
+
+#vemdalenutsikt {
+  width: ;
 }
 
 #vemdalenutsikt:hover {
@@ -296,7 +299,7 @@ input[type="text"]:hover {
 
 @media screen and (min-width: 1600px) {
   .index-main {
-    width: 100px;
+    width: 820px;
   }
 }
 
