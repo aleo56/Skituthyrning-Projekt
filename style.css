@@ -294,5 +294,11 @@ input[type="text"]:hover {
   margin-left: 75px;
 }
 
+@media screen and (min-width: 1600px) {
+  .index-main {
+    width: 100px;
+  }
+}
+
 @media screen and (max-width: 600px) {
 }
