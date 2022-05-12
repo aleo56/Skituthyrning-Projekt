@@ -34,6 +34,9 @@ body.pistkartor-html {
 }
 
 
+#vemdalenutsikt {
+  width: 720px;
+}
 
 body.skiduthyrning-html {
   background-image: url("bilder/alps2.png");
@@ -57,8 +60,8 @@ body::-webkit-scrollbar {
 }
 
 main {
-  height: 220vh;
-  width: 64vw;
+  height: 1350px;
+  width: 650px;
   background-color: white;
 }
 
@@ -266,7 +269,6 @@ input[type="text"]:hover {
   font-size: 1.5em;
   font-family: "Source Sans Pro", sans-serif;
   padding: 15px;
-
 }
 
 .footer {
