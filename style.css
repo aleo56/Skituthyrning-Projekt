@@ -306,4 +306,7 @@ input[type="text"]:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .index-main {
+    width: 1200px;
+  }
 }
