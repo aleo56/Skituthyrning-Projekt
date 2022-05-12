@@ -33,7 +33,6 @@ body.pistkartor-html {
   background-image: url("bilder/vemdalen_lift.jpg");
 }
 
-
 #vemdalenutsikt {
   width: 720px;
 }
@@ -61,7 +60,7 @@ body::-webkit-scrollbar {
 
 main {
   height: 1350px;
-  width: 650px;
+  width: 810px;
   background-color: white;
 }
 
