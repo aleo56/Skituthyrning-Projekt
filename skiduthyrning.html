@@ -14,16 +14,28 @@
   <body class="skiduthyrning-html">
     <header class="index">
       <nav>
-        <a href="#">
-          <i class="fa-solid fa-bars icon"></i>
-        </a>
-        <h3 class="menu-text">Menu</h3>
-        <div class="title">
-          <h2>Skiduthyrning Vemdalen</h2>
+        <ul class="nav-menu">
+          <li>
+            <a href="#" class="nav-link">
+              <i class="fa-solid fa-user icon" id="profilbild"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <a href="#">
-          <i class="fa-solid fa-user icon" id="profilbild"></i>
-        </a>
+        <h3 class="menu-text">Menu</h3>
       </nav>
     </header>
     <form action="">
@@ -75,5 +87,8 @@
       </li>
     </ul>
   </form>
+  <script
+  src="java/hamburgermenu.js"
+></script>
   </body>
 </html>
