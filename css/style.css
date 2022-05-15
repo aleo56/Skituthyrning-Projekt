@@ -187,7 +187,7 @@ nav {
 
 .pistkartor-main {
   width: 100vw;
-  height: 370vh;
+  height: 2350px;
   background-color: white;
   align-items: center;
 }
@@ -412,6 +412,9 @@ footer {
       width: 15%;
     }
 
+    .pistkartor-main {
+      height: 2350px;
+    }
     
   }
 
