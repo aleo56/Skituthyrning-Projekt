@@ -151,7 +151,6 @@ header {
   margin-top: 3px;
 }
 
-
 header.pistkartor {
   margin-bottom: 280px;
 }
@@ -178,8 +177,6 @@ nav {
   padding-left: 49.27px;
 }
 
-
-
 .pistkartor-link {
   text-align: center;
   margin-top: 20px;
@@ -187,7 +184,8 @@ nav {
 
 .pistkartor-main {
   width: 100vw;
-  height: 2350px;
+  height: auto;
+  padding-bottom: 110px;
   background-color: white;
   align-items: center;
 }
@@ -290,8 +288,6 @@ footer {
   height: 80px;
 }
 
-
-
 .social_media {
   margin-top: 7px;
   margin-left: 75px;
@@ -303,8 +299,6 @@ footer {
   
 }
 
-
-
 /*hamburger*/
 
 .navbar {
@@ -315,8 +309,6 @@ footer {
   display: flex;
   box-shadow: 3px 0px 5px rgb(184, 183, 183);
 }
-
-
 
 .hamburger {
   cursor: pointer;
@@ -356,14 +348,12 @@ footer {
 
   .nav-item {
   margin-top: 25px;
-  margin-left: 25px;
-    
+  margin-left: 25px; 
   }
 
   .nav-item-sidor {
     margin-top: 25px;
-    margin-left: 40px;
-    
+    margin-left: 40px; 
     }
 
   .nav-link {
@@ -376,14 +366,10 @@ footer {
     border-radius: 20px;
     border: none;
   }
-
-
   
   .nav-link:hover {
-    color: rgb(0, 132, 165);
-    
+    color: rgb(0, 132, 165); 
     background-color: rgb(240, 239, 239);
-
   }
   
   #border {
@@ -391,7 +377,6 @@ footer {
     border-bottom: solid 1px rgb(184, 184, 184);
 
   }
-
 
 .fa-solid {
   margin-right: 10px;
@@ -401,28 +386,19 @@ footer {
     left: 0;
   }
 
-
-
   @media screen and (min-width: 1600px) {
     .index-main {
       width: 820px;
-    }
-    
+    }  
     .nav-menu {
       width: 15%;
     }
-
-    .pistkartor-main {
-      height: 2350px;
-    }
-    
   }
 
   @media screen and (max-width: 1100px) {
     .nav-menu {
       width: 25%;
     }
-
   }
 
   @media screen and (max-width: 800px) {
@@ -463,8 +439,6 @@ footer {
   #title-vemdalen {
       font-size: 2.2em
   }
-
-
 
 }
   
