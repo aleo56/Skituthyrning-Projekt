@@ -185,7 +185,7 @@ nav {
 .pistkartor-main {
   width: 100vw;
   height: auto;
-  padding-bottom: 110px;
+  padding-bottom: 90px;
   background-color: white;
   align-items: center;
 }
@@ -385,6 +385,23 @@ footer {
   .nav-menu.active {
     left: 0;
   }
+
+.login {
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.login h1 {
+  float: left;
+  font-size: 42px;
+  border-bottom: 6px solid;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
 
   @media screen and (min-width: 1600px) {
     .index-main {
