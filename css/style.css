@@ -56,9 +56,10 @@ body::-webkit-scrollbar {
 }
 
 main {
-  height: 1450px;
-  width: 810px;
+  height: auto;
+  width: auto;
   background-color: white;
+  padding-bottom: 40px;
 }
 
 .bokaknapp {
@@ -185,13 +186,8 @@ nav {
 
 .pistkartor-main {
   width: 100vw;
-<<<<<<< HEAD
   height: auto;
-  padding-bottom: 90px;
-=======
-  height: 22 0px;
-  height: 2350px;
->>>>>>> 9e67ca82745112e364bec38ea76800230b35250d
+  padding-bottom: 100px;
   background-color: white;
   align-items: center;
 }
@@ -304,20 +300,6 @@ footer {
   font-size: 1.25em;
 }
 
-<<<<<<< HEAD
-=======
-@media screen and (min-width: 1600px) {
-  .index-main {
-    width: 820px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .index-main {
-    width: 1200px;
-  }
-}
->>>>>>> 9e67ca82745112e364bec38ea76800230b35250d
 /*hamburger*/
 
 .navbar {
@@ -366,35 +348,33 @@ footer {
 }
 .nav-item {
   margin-top: 25px;
-<<<<<<< HEAD
-  margin-left: 25px; 
-  }
+  margin-left: 25px;
+}
 
-  .nav-item-sidor {
-    margin-top: 25px;
-    margin-left: 40px; 
-    }
+.nav-item-sidor {
+  margin-top: 25px;
+  margin-left: 40px;
+}
 
-  .nav-link {
-    transition: 0.3s ease;
-    color: rgb(46, 88, 99);
-    text-decoration: none;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.3em;
-    padding: 13px;
-    border-radius: 20px;
-    border: none;
-  }
-  
-  .nav-link:hover {
-    color: rgb(0, 132, 165); 
-    background-color: rgb(240, 239, 239);
-  }
-  
-  #border {
-    margin-top: 15px;
-    border-bottom: solid 1px rgb(184, 184, 184);
-=======
+.nav-link {
+  transition: 0.3s ease;
+  color: rgb(46, 88, 99);
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.3em;
+  padding: 13px;
+  border-radius: 20px;
+  border: none;
+}
+
+.nav-link:hover {
+  color: rgb(0, 132, 165);
+  background-color: rgb(240, 239, 239);
+}
+
+#border {
+  margin-top: 15px;
+  border-bottom: solid 1px rgb(184, 184, 184);
   margin-left: 25px;
 }
 
@@ -428,15 +408,12 @@ footer {
   transition: 0.3s;
   height: 100%;
 }
->>>>>>> 9e67ca82745112e364bec38ea76800230b35250d
 
 .nav-item {
   margin-top: 25px;
   margin-left: 25px;
 }
 
-<<<<<<< HEAD
-=======
 .nav-item-sidor {
   margin-top: 25px;
   margin-left: 40px;
@@ -464,7 +441,6 @@ footer {
   border-bottom: solid 1px rgb(184, 184, 184);
 }
 
->>>>>>> 9e67ca82745112e364bec38ea76800230b35250d
 .fa-solid {
   margin-right: 10px;
 }
@@ -476,12 +452,6 @@ footer {
   left: 0;
 }
 
-@media screen and (min-width: 1600px) {
-  .index-main {
-    width: 820px;
-  }
-
-<<<<<<< HEAD
 .login {
   width: 300px;
   top: 50%;
@@ -499,26 +469,9 @@ footer {
   padding: 13px 0;
 }
 
-  @media screen and (min-width: 1600px) {
-    .index-main {
-      width: 820px;
-    }  
-    .nav-menu {
-      width: 15%;
-    }
-  }
-
-  @media screen and (max-width: 1100px) {
-    .nav-menu {
-      width: 25%;
-    }
-=======
+@media screen and (min-width: 1600px) {
   .nav-menu {
-    width: 15%;
-  }
-
-  .pistkartor-main {
-    height: 2350px;
+    width: 20%;
   }
 }
 
@@ -526,12 +479,15 @@ footer {
   .nav-menu {
     width: 25%;
   }
+
+  .nav-menu {
+    width: 15%;
+  }
 }
 
 @media screen and (max-width: 800px) {
   .social_media {
     margin-left: 100px;
->>>>>>> 9e67ca82745112e364bec38ea76800230b35250d
   }
 
   .blankspace {
@@ -539,18 +495,19 @@ footer {
   }
 
   .skidskola {
-    width: 720px;
-    margin-bottom: 100px;
+    width: 500px;
   }
 
   .skiduthyrning {
-    width: 720px;
-    margin-bottom: 100px;
+    width: 500px;
+  }
+
+  .index-bilder {
+    display: none;
   }
 
   .index-main {
-    width: 100%;
-    height: 130vh;
+    width: 100vw;
   }
 
   .nav-menu {
@@ -567,31 +524,26 @@ footer {
   #title-vemdalen {
     font-size: 2.2em;
   }
-<<<<<<< HEAD
+  body {
+    background-image: none;
+  }
 
-=======
->>>>>>> 9e67ca82745112e364bec38ea76800230b35250d
+
+
+  .skiduthyrning {
+    margin-bottom: -60px;
+  }
+
+  .skidskola {
+    margin-bottom: -60px;
+  }
 }
 
 @media screen and (max-width: 580px) {
-  .skidskola {
-    margin-bottom: 0px;
-  }
 
-  .skiduthyrning {
-    margin-bottom: -80px;
-  }
-
-  .index-main {
-    width: 100%;
-  }
 
   #vemdalenutsikt {
-    width: 400px;
-  }
-
-  .index-bilder {
-    display: none;
+    width: 450px;
   }
 
   .nav-menu {
