@@ -7,9 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
     <script
-    src="https://kit.fontawesome.com/714aa36b5e.js"
-    crossorigin="anonymous"
-  ></script>
+      src="https://kit.fontawesome.com/714aa36b5e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="skiduthyrning-html">
     <header class="index">
@@ -18,111 +18,156 @@
           <li class="nav-item">
             <a href="index.html" class="nav-link">
               <i class="fa-solid fa-house"></i>Hem
-          </a>
+            </a>
           </li>
           <div id="border"></div>
           <li class="nav-item-sidor">
-            <a href="skidskola.html" class="nav-link" >
-             Skidskola
-          </a>
+            <a href="skidskola.html" class="nav-link"> Skidskola </a>
           </li>
           <li class="nav-item-sidor">
-            <a href="pistkartor.html" class="nav-link">
-              Pistkartor
-          </a>
+            <a href="pistkartor.html" class="nav-link"> Pistkartor </a>
           </li>
           <div id="border"></div>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="fa-solid fa-address-card"></i>Kontakt
-          </a>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
               <i class="fa-solid fa-question"></i>Om Oss
-          </a>
+            </a>
           </li>
-        </ul>  
+        </ul>
         <div class="hamburger">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
         </div>
         <h3 class="menu-text">Menu</h3>
+        <div class="title">
+          <h2>Skiduthyrning Vemdalen</h2>
+        </div>
+        <a href="login.html">
+          <i class="fa-solid fa-user icon" id="profilbild"></i>
+        </a>
       </nav>
     </header>
-    <form action="">
-    <tr>
-      <th class="skiduthyrning-form">
-        <label class="form-label" for="fname">Användarnamn</label>
-      </br>     
-        <input name="fname" type="text" id="fname" class="input" placeholder="Name..." />
-      </th>
-      <th class="skiduthyrning-form">        
-        <label class="form-label" for="fname">Ålder</label>
-      </br>     
-        <input type="text" class="input" placeholder="Name..." />
-      </th>
-      <th class="skiduthyrning-form">
-        <label class="form-label" for="fname">Längd (cm)</label>
-      </br>     
-        <input type="text" class="input" placeholder="Name..." />
-      </th>
-      <th class="skiduthyrning-form">
-        <label class="form-label" for="fname">First Name</label>
-      <br>     
-        <input type="text" class="input" placeholder="Name..." />
-      </th>
-
-    </tr>
-    <br>
-    <ul>
-      <li class="skiduthyrning-select">
-        <label for="kategori">Kategori</label>
-        <select name="kategori" id="skiduthyrning-select">
-          <option value="0">Välj kategori nedan</option>
-          <option value="1">VUXEN, Alpina paket</option>
-          <option value="2">VUXEN, Enstaka artiklar</option>
-          <option value="3">UNGDOM 8-15 år, Alpin paket</option>
-          <option value="4">UNGDOM 8-15 år, Enstaka artiklar</option>
-          <option value="5">BARN 0-7 år, Alpin paket</option>
-          <option value="6">BARN 0-7 år, Enstaka artiklar</option>
-          <option value="7">Övrigt</option>
-          <option value="8">Utkörning</option>
-          <option value="9">Skidskola</option>
-        </select>
-      </li>
-      <li class="skiduthyrning-select" for="fname">
-        <label for="Utrustning">Utrustning</label>
-        <select name="Utrustning" id="skiduthyrning-select">
-          <option value="0">Välj utrustning nedan</option>
-        </select>
-      </li>
-    </ul>
-  </form>
-  <footer>
-    <nav>
-    <ul>
-      <li class="logo">
-        <img src="logo.png" alt="" />
-      </li>
-      <li class="social_media">
-        <i class="fa-brands fa-facebook-f"></i>
-        <p><a href="https://www.facebook.com/">Facebook</a></p>
-      </li>
-      <li class="social_media">
-        <i class="fa-brands fa-instagram"></i>
-        <p><a href="https://www.instagram.com/">Instagram</a></p>
-      </li>
-      <li class="social_media">
-        <i class="fa-brands fa-youtube"></i>
-        <p><a href="https://www.youtube.com/">Youtube</a></p>
-      </li>
-    </ul>
-  </nav>
-  </footer>
-  <script
-  src="java/hamburgermenu.js"
-></script>
+    <main class="skiduthyrning-main">
+      <table>
+        <thead>
+          <tr>
+            <th>Välj Kategori</th>
+            <th>Välj Objekt</th>
+            <th>Välj Tid</th>
+            <th>Pris</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <select name="kategori" id="skiduthyrning-select">
+                <option value="0">Välj kategori nedan</option>
+                <option value="1">VUXEN, Alpina paket</option>
+                <option value="2">VUXEN, Enstaka artiklar</option>
+                <option value="3">UNGDOM 8-15 år, Alpin paket</option>
+                <option value="4">UNGDOM 8-15 år, Enstaka artiklar</option>
+                <option value="5">BARN 0-7 år, Alpin paket</option>
+                <option value="6">BARN 0-7 år, Enstaka artiklar</option>
+                <option value="7">Övrigt</option>
+                <option value="8">Utkörning</option>
+                <option value="9">Skidskola</option>
+              </select>
+            </td>
+            <td>
+              <select name="kategori" id="skiduthyrning-select">
+                <option value="0">Välj kategori nedan</option>
+                <option value="1">VUXEN, Alpina paket</option>
+                <option value="2">VUXEN, Enstaka artiklar</option>
+                <option value="3">UNGDOM 8-15 år, Alpin paket</option>
+                <option value="4">UNGDOM 8-15 år, Enstaka artiklar</option>
+                <option value="5">BARN 0-7 år, Alpin paket</option>
+                <option value="6">BARN 0-7 år, Enstaka artiklar</option>
+                <option value="7">Övrigt</option>
+                <option value="8">Utkörning</option>
+                <option value="9">Skidskola</option>
+              </select>
+            </td>
+            <td>
+              <select name="kategori" id="skiduthyrning-select">
+                <option value="0">Välj kategori nedan</option>
+                <option value="1">VUXEN, Alpina paket</option>
+                <option value="2">VUXEN, Enstaka artiklar</option>
+                <option value="3">UNGDOM 8-15 år, Alpin paket</option>
+                <option value="4">UNGDOM 8-15 år, Enstaka artiklar</option>
+                <option value="5">BARN 0-7 år, Alpin paket</option>
+                <option value="6">BARN 0-7 år, Enstaka artiklar</option>
+                <option value="7">Övrigt</option>
+                <option value="8">Utkörning</option>
+                <option value="9">Skidskola</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Namn</td>
+            <td>Namn</td>
+            <td>Namn</td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                placeholder="text"
+                name="user"
+                class="form-control"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                placeholder="text"
+                name="user"
+                class="form-control"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                placeholder="text"
+                name="user"
+                class="form-control"
+              />
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li class="logo">
+            <img src="logo.png" alt="" />
+          </li>
+          <li class="social_media">
+            <i class="fa-brands fa-facebook-f"></i>
+            <p><a class="social-link" href="https://www.facebook.com/">Facebook</a></p>
+          </li>
+          <li class="social_media">
+            <i class="fa-brands fa-instagram"></i>
+            <p><a class="social-link" href="https://www.instagram.com/">Instagram</a></p>
+          </li>
+          <li class="social_media">
+            <i class="fa-brands fa-youtube"></i>
+            <p><a class="social-link" href="https://www.youtube.com/">Youtube</a></p>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="java/hamburgermenu.js"></script>
   </body>
 </html>

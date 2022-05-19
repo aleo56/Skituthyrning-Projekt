@@ -59,6 +59,7 @@ main {
   height: auto;
   width: auto;
   background-color: white;
+  padding: 15px;
   padding-bottom: 40px;
 }
 
@@ -300,6 +301,10 @@ footer {
   font-size: 1.25em;
 }
 
+.social-link {
+  color: rgb(46, 88, 99);
+}
+
 /*hamburger*/
 
 .navbar {
@@ -468,6 +473,52 @@ footer {
   margin-bottom: 50px;
   padding: 13px 0;
 }
+
+/*skiduthyrning*/
+.skiduthyrning-main{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+
+
+.table, th, td{
+  border: 1px solid rgb(175, 175, 175);
+  padding: 15px;
+  border-radius: 4px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input {
+  width: 14vw;
+  height: 7vh;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+
+
+input[type="text"]:active {
+  border: 1px solid rgb(161, 7, 7);
+  padding: 5px;
+}
+
+input[type="text"]:hover {
+  border: 1px rgb(163, 163, 163) solid;
+  padding: 5px;
+}
+
 
 @media screen and (min-width: 1600px) {
   .nav-menu {
