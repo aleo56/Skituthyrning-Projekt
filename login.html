@@ -1,22 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="login">
-        <h1>Login</h1>
-        <div class="login-textbox">
-            <input type="text" placeholder="Användarman" name="" value="">
-        </div>
-        <div class="login">
-            <input type="login-textbox" placeholder="Användarman" name="" value="">
-        </div>
-        <input class="button" type="button" placeholder="Användarman" name="" value="Logga In">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="login-body">
+    <header>
+        <nav>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                <i class="fa-solid fa-house"></i>Hem
+            </a>
+            </li>
+            <div id="border"></div>
+            <li class="nav-item-sidor">
+              <a href="skiduthyrning.html" class="nav-link">
+                Skiduthyrning
+            </a>
+            </li>
+            <li class="nav-item-sidor">
+              <a href="skidskola.html" class="nav-link" >
+               Skidskola
+            </a>
+            </li>
+            <li class="nav-item-sidor">
+              <a href="pistkartor.html" class="nav-link">
+                Pistkartor
+            </a>
+            </li>
+            <div id="border"></div>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fa-solid fa-address-card"></i>Kontakt
+            </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-question"></i>Om Oss
+            </a>
+            </li>
+            <li class="nav-item">
+              <h3>Att göra</h3>
+              <p>
+                footer </br>
+                skiduthyrning </br>
+                checka allt på listan </br>
+                fixa overlap när man hoverar bilder </br>
+                ev. skidskola </br>
+                ev. login
+              </p>
+            </li>
+          </ul>  
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+           <h3 class="menu-text">Menu</h3>
+          <div class="title">
+            <h2>Skiduthyrning Vemdalen</h2>
+          </div>
+          <a href="login.html">
+            <i class="fa-solid fa-user icon" id="profilbild"></i>
+          </a>
+        </nav>
+      </header> 
+    <div class="login-box">
+      <h1>Login</h1>
+      <div class="textbox">
+        <input type="text" placeholder="Användarman" name="" value="" />
+      </div>
+      <div class="textbox">
+        <input type="password" placeholder="Användarman" name="" value="" />
+      </div>
+      <a href="index.html">
+      <input
+        class="btn"
+        type="button"
+        placeholder="Användarman"
+        name=""
+        value="Logga In"
+      />
+    </a>
     </div>
-</body>
+    <script src="java/hamburgermenu.js"></script>
+  </body>
 </html>
