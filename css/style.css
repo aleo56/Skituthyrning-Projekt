@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
 }
 body.pistkartor-body {
   background-image: url("../css/vemdalen_lift.jpg");
@@ -69,6 +69,7 @@ main {
 .boka-a-tag {
   padding: 0px 20px;
   border-radius: 50px;
+  color: rgb(46, 88, 99);
 }
 
 .skiduthyrning {
@@ -133,7 +134,7 @@ header {
   list-style: none;
   font-size: 18px;
   box-shadow: 0px 2px 2px rgb(73, 73, 73);
-  background: linear-gradient(#428aa7, #32898f);
+  background: linear-gradient(45deg, rgb(46, 88, 99), rgb(56, 154, 179));
   width: 100%;
   padding: 15px;
   position: sticky;
@@ -224,32 +225,6 @@ li {
   height: 7vh;
   font-size: 18px;
   border-radius: 15px;
-}
-/*
-input[type="text"] {
-  border: rgb(143, 143, 143) solid;
-  padding: 5px;
-}
-input[type="text"]:hover {
-  border: rgb(115, 115, 115) solid;
-}
-*/
-
-.form-label {
-  font-size: 1.5em;
-  color: rgb(0, 0, 0);
-  font-family: "Rajdhani", sans-serif;
-}
-
-
-#skiduthyrning-select:hover {
-  border: rgb(115, 115, 115) solid;
-}
-
-.skiduthyrning-select {
-  font-size: 1.5em;
-  font-family: "Rajdhani", sans-serif;
-  padding: 15px;
 }
 
 .blankspace {
@@ -392,7 +367,6 @@ footer {
 /*skiduthyrning*/
 .skiduthyrning-main{
   display: flex;
-  justify-content: center;
   margin-top: 100px;
   padding: 0px;
 }
@@ -402,8 +376,8 @@ table {
   padding: 15px;
 }
 
-td, tbody{
-  font-family: 'Poppins',sans-serif;
+tbody, .td-tbody{
+  font-family: "Rajdhani", sans-serif;
   padding: 15px;
   border-radius: 5px;
   outline: none;
@@ -413,21 +387,20 @@ td, tbody{
   border: 1px solid #ccc;
   border-bottom-width: 2px;
   transition: all 0.3s ease;
-
+  text-align: left;
+  font-size: 18px;
 }
 
-tr {
-  margin-bottom: 15px;
+.skiduthyrning-rubriker {
+  padding: 15px;
 }
 
 thead {
   height: 35px;
-  border-radius: 150px;
+  font-family: "Rajdhani", sans-serif;
+  text-align: left;
 }
 
-.form-rubriker {
-  background: linear-gradient(45deg, rgb(46, 88, 99), rgb(56, 154, 179));
-}
 
 select {
   padding: 11px;
@@ -436,11 +409,26 @@ select {
   border-bottom-width: 2px;
   font-size: 16px;
   padding-left: 15px;
+  width: 95%;
 }
 
 select:focus {
   border-color: rgb(0, 59, 114);
+}
 
+.boka {
+  width: 120px;
+  height: 35px;
+  float: right;
+  margin-right: 20px;
+  color: black;
+}
+
+.td-tfoot {
+  height: 75px;
+  background-color: rgb(0, 113, 128);
+  border-radius: 20px;
+  
 }
 
 input[type="text"] {

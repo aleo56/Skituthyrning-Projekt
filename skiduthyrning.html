@@ -56,93 +56,80 @@
     <main class="skiduthyrning-main">
       <table>
         <thead>
-          <tr class="form-rubriker">
+          <tr>
             <th>Välj Kategori</th>
             <th>Välj Objekt</th>
             <th>Välj Tid</th>
-            <th>Pris</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>
-              <select name="kategori" id="skiduthyrning-select">
-                <option value="0">Välj kategori nedan</option>
-                <option value="1">VUXEN, Alpina paket</option>
-                <option value="2">VUXEN, Enstaka artiklar</option>
-                <option value="3">UNGDOM 8-15 år, Alpin paket</option>
-                <option value="4">UNGDOM 8-15 år, Enstaka artiklar</option>
-                <option value="5">BARN 0-7 år, Alpin paket</option>
-                <option value="6">BARN 0-7 år, Enstaka artiklar</option>
-                <option value="7">Övrigt</option>
-                <option value="8">Utkörning</option>
-                <option value="9">Skidskola</option>
-              </select>
-            </td>
-            <td>
-              <select name="kategori" id="skiduthyrning-select">
-                <option value="0">Välj kategori nedan</option>
-                <option value="1">VUXEN, Alpina paket</option>
-                <option value="2">VUXEN, Enstaka artiklar</option>
-                <option value="3">UNGDOM 8-15 år, Alpin paket</option>
-                <option value="4">UNGDOM 8-15 år, Enstaka artiklar</option>
-                <option value="5">BARN 0-7 år, Alpin paket</option>
-                <option value="6">BARN 0-7 år, Enstaka artiklar</option>
-                <option value="7">Övrigt</option>
-                <option value="8">Utkörning</option>
-                <option value="9">Skidskola</option>
-              </select>
-            </td>
-            <td>
-              <select name="kategori" id="skiduthyrning-select">
-                <option value="0">Välj kategori nedan</option>
-                <option value="1">VUXEN, Alpina paket</option>
-                <option value="2">VUXEN, Enstaka artiklar</option>
-                <option value="3">UNGDOM 8-15 år, Alpin paket</option>
-                <option value="4">UNGDOM 8-15 år, Enstaka artiklar</option>
-                <option value="5">BARN 0-7 år, Alpin paket</option>
-                <option value="6">BARN 0-7 år, Enstaka artiklar</option>
-                <option value="7">Övrigt</option>
-                <option value="8">Utkörning</option>
-                <option value="9">Skidskola</option>
-              </select>
-            </td>
-          </tr>
-          <tr class="form-rubriker">
-            <td >Namn</td>
-            <td>Namn</td>
-            <td>Namn</td>
+              <td class="td-tbody">
+                <select>
+                  <option >VUXEN, Alpina paket</option>
+                  <option>VUXEN, Enstaka artiklar</option>
+                  <option>UNGDOM 8-15 år, Alpin paket</option>
+                  <option>UNGDOM 8-15 år, Enstaka artiklar</option>
+                  <option>BARN 0-7 år, Alpin paket</option>
+                  <option>BARN 0-7 år, Enstaka artiklar</option>
+                  <option>Övrigt</option>
+                  <option>Skidskola</option>
+                  <option>Utkörning</option>
+                </select></td>
+              <td class="td-tbody">
+                <select>
+                  <option>Skidor medel</option>
+                  <option>Snowboard / Snowblade</option>
+                  <option>Skor - Alpin / Snowboard</option>
+                  <option>Twintip</option>
+                  <option>Hjälm</option>
+                  <option>Stavar</option>
+                </select>
+              </td>
+              <td class="td-tbody">
+                <select>
+                  <option>1 dag</option>
+                  <option>2 dagar</option>
+                  <option>3 dagar</option>
+                  <option>4 dagar</option>
+                  <option>5 dagar</option>
+                  <option>6 dagar</option>
+                  <option>7 dagar</option>
+                  <option>8 dagar</option>
+                </select></td>
+              </td>
           </tr>
           <tr>
-            <td>
+            <td class="skiduthyrning-rubriker">Namn*</td>
+            <td class="skiduthyrning-rubriker">Ålder*</td>
+            <td class="skiduthyrning-rubriker">Längd*</td>
+          </tr>
+          <tr>
+            <td class="td-tbody">
               <input
                 type="text"
-                placeholder="text"
-                name="user"
-                class="form-control"
               />
             </td>
-            <td>
+            <td class="td-tbody">
               <input
                 type="text"
-                placeholder="text"
-                name="user"
-                class="form-control"
               />
             </td>
-            <td>
+            <td class="td-tbody">
               <input
                 type="text"
-                placeholder="text"
-                name="user"
-                class="form-control"
               />
             </td>
           </tr>
         </tbody>
         <tfoot>
           <tr>
-            <td></td>
+            <td class="td-tfoot" colspan="4">
+              <input
+              class="boka"
+              type="button"
+              value="Boka"
+            />
           </tr>
         </tfoot>
       </table>
