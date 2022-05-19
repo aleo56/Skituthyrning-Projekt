@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Orelega+One&family=Raleway:wght@100;400&family=Rock+3D&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Source+Sans+Pro&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rajdhani:wght@300;500&family=Raleway:wght@100;400&display=swap");
 * {
   text-decoration: none;
   padding: 0;
@@ -13,6 +11,7 @@
 }
 
 body {
+  background-image: url("../css/alps.jpg");
   background-attachment: fixed;
   background-size: cover;
   align-items: center;
@@ -24,19 +23,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
-body.index-body {
-  background-image: url("../css/alps.jpg");
-}
-
 body.pistkartor-body {
   background-image: url("../css/vemdalen_lift.jpg");
 }
-
-body.skiduthyrning-body {
-  background-image: url("../css/alps2.png");
-}
-
 #pistkartor-bild {
   width: 1024px;
   height: 681.5px;
@@ -93,6 +82,12 @@ main {
   display: flex;
 }
 
+.skidskola-main {
+  height: 70vh;
+  width: 45vw;
+  padding: 30px;
+}
+
 .uthyrningtext {
   height: 400px;
   width: 400px;
@@ -135,7 +130,7 @@ main {
 
 header {
   list-style: none;
-  font-size: 16px;
+  font-size: 18px;
   box-shadow: 0px 2px 2px rgb(73, 73, 73);
   background: linear-gradient(#3a4b9f, #32348f);
   width: 100%;
@@ -145,12 +140,12 @@ header {
   z-index: 10000 !important;
   background-color: rgb(255, 255);
   margin-bottom: 20px;
-  font-family: "Raleway", sans-serif;
 }
 
 .menu-text {
   margin-left: 10px;
   margin-top: 3px;
+  color: white;
 }
 
 header.pistkartor {
@@ -165,6 +160,7 @@ nav {
   display: flex;
   justify-content: center;
   width: 100vw;
+  color: white;
 }
 .skiduthyrning-vemdalen {
   justify-content: center;
@@ -172,7 +168,7 @@ nav {
 
 .icon {
   font-size: 1.5em;
-  color: darkslategray;
+  color: white;
 }
 
 #profilbild {
@@ -192,18 +188,17 @@ nav {
   align-items: center;
 }
 
-#title-vemdalen {
+#title-pistkartor {
   text-align: center;
   padding: 25px;
-  font-family: "Orelega One", cursive;
   font-size: 3em;
   color: rgb(54, 54, 54);
   border-bottom: solid rgb(72, 71, 71);
+  font-family: "Rajdhani", sans-serif;
 }
 
 .berg-titlar {
-  padding: 10px;
-  margin-bottom: 30px;
+  padding: 20px;
   text-align: center;
   color: rgb(72, 72, 72);
   font-family: "Montserrat", sans-serif;
@@ -251,7 +246,7 @@ input[type="text"]:hover {
 .form-label {
   font-size: 1.5em;
   color: rgb(0, 0, 0);
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 #skiduthyrning-select {
@@ -271,7 +266,7 @@ input[type="text"]:hover {
 
 .skiduthyrning-select {
   font-size: 1.5em;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Rajdhani", sans-serif;
   padding: 15px;
 }
 
@@ -294,23 +289,20 @@ footer {
 .social_media {
   margin-top: 7px;
   margin-left: 75px;
-  padding: 20px;
+  padding: 28px;
   height: 20px;
   width: 20px;
   object-fit: cover;
   font-size: 1.25em;
+  display: flex;
+  font-family: "Rajdhani", sans-serif;  
+}
+
+.fa-brands {
+  margin-right: 7px;
 }
 
 /*hamburger*/
-
-.navbar {
-  display: flex;
-}
-
-.nav-menu {
-  display: flex;
-  box-shadow: 3px 0px 5px rgb(184, 183, 183);
-}
 
 .hamburger {
   cursor: pointer;
@@ -323,7 +315,7 @@ footer {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: rgb(0, 71, 88);
+  background-color: white;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -336,13 +328,19 @@ footer {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+.navbar {
+  display: flex;
+}
+
 .nav-menu {
+  display: flex;
+  box-shadow: 3px 0px 5px rgb(184, 183, 183);
   position: fixed;
   left: -100%;
-  top: 60px;
+  top: 61px;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  width: 16%;
+  width: 18%;
   text-align: left;
   transition: 0.3s;
   height: 100%;
@@ -356,17 +354,6 @@ footer {
 .nav-item-sidor {
   margin-top: 25px;
   margin-left: 40px;
-}
-
-.nav-link {
-  transition: 0.3s ease;
-  color: rgb(46, 88, 99);
-  text-decoration: none;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.3em;
-  padding: 13px;
-  border-radius: 20px;
-  border: none;
 }
 
 .nav-link:hover {
@@ -381,59 +368,14 @@ footer {
 }
 
 .nav-link {
-  transition: 0.3s ease;
-  color: rgb(0, 71, 88);
+  transition: 0.4s ease;
+  color: black;
   text-decoration: none;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.3em;
+  font-size: 18px;
   padding: 13px;
   border-radius: 20px;
   width: 200px;
   border: none;
-}
-
-.nav-link:hover {
-  color: rgb(0, 132, 165);
-  background-color: rgb(240, 239, 239);
-}
-
-.nav-menu {
-  position: fixed;
-  left: -100%;
-  top: 60px;
-  flex-direction: column;
-  background-color: rgb(255, 255, 255);
-  width: 20%;
-  text-align: left;
-  transition: 0.3s;
-  height: 100%;
-}
-
-.nav-item {
-  margin-top: 25px;
-  margin-left: 25px;
-}
-
-.nav-item-sidor {
-  margin-top: 25px;
-  margin-left: 40px;
-}
-
-.nav-link {
-  transition: 0.3s ease;
-  color: rgb(46, 88, 99);
-  text-decoration: none;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.3em;
-  padding: 13px;
-  border-radius: 20px;
-  border: none;
-}
-
-.nav-link:hover {
-  color: rgb(0, 132, 165);
-
-  background-color: rgb(240, 239, 239);
 }
 
 #border {
@@ -447,12 +389,6 @@ footer {
 
 .nav-menu.active {
   left: 0;
-}
-.nav-menu.active {
-  left: 0;
-}
-.login-body {
-  background-image: url(alps.jpg);
 }
 
 .login-box {
@@ -473,19 +409,25 @@ footer {
   font-size: 20px;
   padding: 8px;
   margin: 8px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid yellow;
 }
 
 .textbox input {
   border: none;
   outline: none;
-  background: none;
+  background-color: rgba(128, 128, 128, 0.502);
+  padding: 3px;
+  width: 70%;
+}
+
+::placeholder {
+  color: white;
 }
 
 .btn {
   width: 100%;
   background: none;
-  border: 2px solid linear-gradient(#3a729f, #00eaff);
+  border: 2px solid yellow;
   color: white;
   padding: 5px;
   font-size: 18px;
