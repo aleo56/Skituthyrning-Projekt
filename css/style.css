@@ -68,7 +68,7 @@ main {
 .boka-a-tag {
   padding: 0px 20px;
   border-radius: 50px;
-  color: rgb(46, 88, 99);
+  color: rgb(62, 108, 146);
 }
 
 .skiduthyrning {
@@ -133,7 +133,7 @@ header {
   list-style: none;
   font-size: 18px;
   box-shadow: 0px 2px 2px rgb(73, 73, 73);
-  background: linear-gradient(45deg, rgb(46, 63, 99), rgb(56, 89, 179));
+  background: linear-gradient(45deg, rgb(46, 63, 99), rgb(62, 108, 146));
   width: 100%;
   padding: 15px;
   position: sticky;
@@ -141,6 +141,11 @@ header {
   z-index: 10000 !important;
   background-color: rgb(255, 255);
   margin-bottom: 20px;
+}
+
+.links-header {
+  color: white;
+  margin-right: 60px;
 }
 
 .menu-text {
@@ -329,7 +334,7 @@ footer {
 
 .nav-link {
   transition: 0.4s ease;
-  color: rgb(46, 63, 99);
+  color: rgb(25, 61, 90);
   text-decoration: none;
   font-size: 18px;
   padding: 13px;
@@ -372,7 +377,7 @@ footer {
 }
 
 table {
-  background: linear-gradient(45deg, rgb(46, 63, 99), rgb(56, 89, 179));
+  background: linear-gradient(45deg, rgb(46, 63, 99), rgb(62, 108, 146));
   padding: 15px;
 }
 
@@ -417,8 +422,8 @@ select:focus {
 }
 
 .boka {
-  width: 120px;
-  height: 35px;
+  width: 200px;
+  height: 40px;
   float: right;
   margin-right: 20px;
   color: black;
@@ -426,7 +431,7 @@ select:focus {
 
 .td-tfoot {
   height: 75px;
-  background-color: rgb(0, 59, 114);
+  background-color: rgb(62, 108, 146);
   border-radius: 20px;
 }
 
